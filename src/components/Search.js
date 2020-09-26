@@ -33,7 +33,7 @@ const Search = () => {
             clearTimeout(prevTime);
         }
     }
-        
+        // eslint-disable-next-line
     }, [term]);
 
   
