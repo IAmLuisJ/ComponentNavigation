@@ -11,7 +11,7 @@ const Dropdown = (props) => {
 
     return (
         <div className="ui form">
-            <label>Please select one of the following</label>
+            <label>{props.label}</label>
             <select className="select" onChange={(e) => props.onSelectedChange(e.target.value)}>
             {renderedOptions}
             </select>
