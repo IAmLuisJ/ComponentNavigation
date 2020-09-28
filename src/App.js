@@ -5,19 +5,21 @@ import Search from './components/Search';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import Intro from './components/Intro';
+import Footer from './components/Footer';
 
         const items = [
             {
-                title: "What is React",
-                content: "React is a front end framework"
+                title: "What is your greatest skill?",
+                content: "The ability to learn."
             },
             {
-                title: "Why use React",
-                content: "React is a favorite JS library among engineers"
+                title: "How do you define success?",
+                content: "Being useful to others."
             },
             {
-                title: "How do you use React",
-                content: 'You use React by creating components'
+                title: "What is the answer to life?",
+                content: '42.'
             }
         ];
 
@@ -43,7 +45,10 @@ export default () => {
     return (
         <div>
             <Header />
-            <Route path="/">
+            <Route path='/'>
+                <Intro />
+            </Route>
+            <Route path="/faq">
             <Accordion items={items}/>
             </Route>
             <Route path="/list">
@@ -59,6 +64,7 @@ export default () => {
             <Route path="/translate">
             <Translate />
             </Route>
+            <Footer />
         </div>
        )
 };
