@@ -40,7 +40,7 @@ import Footer from './components/Footer';
 
 export default () => {
     const [selected, setSelected] = useState(options[0]);
-    const [showDropdown, setShowDropdown] = useState(true);
+    const [showDropdown, setShowDropdown] = useState(false);
 
     return (
         <div>
@@ -55,7 +55,7 @@ export default () => {
             <Search />
             </Route>
             <Route path="/dropdown">
-            <button onClick={() => setShowDropdown(!showDropdown)}>Show Dropdown</button>
+            <button className="fluid ui toggle button" onClick={() => setShowDropdown(!showDropdown)}>Show Settings</button><br />
             { showDropdown ?
             <Dropdown options={options} selection={selected} onSelectedChange={setSelected} label='Select a Color'/>
             : null

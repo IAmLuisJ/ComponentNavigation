@@ -8,15 +8,15 @@ const Intro = () => {
             <div className="ui dividing header"></div>
             <div className="ui centered card">
                 <div className="image">
-                    <img src="images/IMG_2974.jpeg" alt="me" />
+                    <img src="https://instagram.ffcm1-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/22159222_1904501699802062_6833410422406643712_n.jpg?_nc_ht=instagram.ffcm1-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=AT8n1CLwRPMAX9oAVpU&oh=d8158503a691da979df51030926d3018&oe=5F9AF0EF" alt="me" />
                 </div>
                 <div className="content">
-                    <a className="header" href="/">Luis Juarez</a>
+                    <div className="header" href="/">Luis Juarez</div>
                     <div className="meta">
                         <span className="date">That's me</span>
                     </div>
                     <div className="description">
-                        More info
+                        
                     </div>
                 </div>
             </div>
