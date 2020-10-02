@@ -11,6 +11,10 @@ const options = [ {
     value: 'ar'
 },
 {
+    label: 'English',
+    value: 'en'
+},
+{
     label: 'Hindi',
     value: 'hi'
 }];

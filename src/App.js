@@ -7,6 +7,7 @@ import Route from './components/Route';
 import Header from './components/Header';
 import Intro from './components/Intro';
 import Footer from './components/Footer';
+import Uses from './components/Uses';
 
         const items = [
             {
@@ -63,6 +64,9 @@ export default () => {
             </Route>
             <Route path="/translate">
             <Translate />
+            </Route>
+            <Route path="/uses">
+                <Uses />
             </Route>
             <Footer />
         </div>
