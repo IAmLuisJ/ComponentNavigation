@@ -11,7 +11,47 @@ const Uses = () => {
         {
             icon: 'desktop',
             header: 'Monitors',
-            description: 'LG 24" IPS Monitors x3'
+            description: 'LG - 24" IPS LED FHD FreeSync Monitor - Black x3'
+        },
+        {
+            icon: 'code',
+            header: 'IDE',
+            description: 'Visual Studio Code/JetBrains PHPStorm'
+        },
+        {
+            icon: 'sitemap',
+            header: 'Dock',
+            description: 'j5create - USB Type-C Triple Display Docking Station'
+        },
+        {
+            icon: 'keyboard',
+            header: 'Keyboard',
+            description: 'Razer - Blackwidow Ultimate V2 - Green Switches'
+        },
+        {
+            icon: 'sound',
+            header: 'Speakers',
+            description: 'Razer - Nommo Chroma 2.0 Gaming Speakers (2-Piece) - Black'
+        },
+        {
+            icon: 'keyboard',
+            header: 'Mouse',
+            description: 'Razer - DeathAdder Elite Wired Optical Gaming Mouse with Chroma Lighting - Black'
+        },
+        {
+            icon: 'keyboard',
+            header: 'Mousepad',
+            description: 'Razer Goliathus Extended Chroma'
+        },
+        {
+            icon: 'home',
+            header: 'Chair',
+            description: 'Staples Hyken Mesh Task Chair, Black'
+        },
+        {
+            icon: 'headphones',
+            header: 'Headset',
+            description: 'Logitech G933 Wireless Headset 7.1 surround'
         }
     ];
 
@@ -28,7 +68,7 @@ const Uses = () => {
 
     return (
         <div className="ui container">
-            <div className="ui list">
+            <div className="ui huge list">
                {usesListRendered}
             </div>
         </div>
