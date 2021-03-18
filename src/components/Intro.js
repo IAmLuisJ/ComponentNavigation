@@ -11,7 +11,7 @@ const Intro = () => {
       <div className="ui dividing header"></div>
       <div className="ui centered card">
         <div className="image">
-          <img src="public/images/045A0066.jpeg" alt="Luis Juarez" />
+          <img src="%PUBLIC_URL%/images/045A0066.jpeg" alt="Luis Juarez" />
         </div>
         <div className="content">
           <div className="header" href="/">
