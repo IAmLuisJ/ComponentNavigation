@@ -1,4 +1,5 @@
 import React from "react";
+import myImage from "../images/045A0066.jpeg";
 
 const Intro = () => {
   return (
@@ -11,7 +12,7 @@ const Intro = () => {
       <div className="ui dividing header"></div>
       <div className="ui centered card">
         <div className="image">
-          <img src="../../public/images/045A0066.jpeg" alt="Luis Juarez" />
+          <img src={myImage} alt="Luis Juarez" />
         </div>
         <div className="content">
           <div className="header" href="/">
