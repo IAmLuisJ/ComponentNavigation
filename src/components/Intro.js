@@ -12,7 +12,11 @@ const Intro = () => {
       <div className="ui dividing header"></div>
       <div className="ui centered card">
         <div className="image">
-          <img src={myImage} alt="Luis Juarez" />
+          <img
+            src={myImage}
+            alt="Luis Juarez"
+            className="ui medium circular image"
+          />
         </div>
         <div className="content">
           <div className="header" href="/">
